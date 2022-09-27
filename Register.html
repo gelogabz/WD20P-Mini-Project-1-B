@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>UnoPalooza 2022 - Payments</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css-masonry/files/css/labs.css">
+    <link rel="stylesheet" href="css-masonry/files/css/masonry.css">
+    <link href="/WD20P_MiniProject1B_TeamUno/bootstrap-5.2.1-dist/bootstrap-5.2.1-dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link href="/WD20P_MiniProject1B_TeamUno/bootstrap-5.2.1-dist/cover.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+</head>
+
+<style>
+    /*
+ * Globals
+ */
+    /* Custom default button */
+    .btn-secondary,
+    .btn-secondary:hover,
+    .btn-secondary:focus {
+        color: #333;
+        text-shadow: none;
+        /* Prevent inheritance from `body` */
+    }
+    /*
+ * Base structure
+ */
+    body {
+        text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    }
+
+    .cover-container {
+        max-width: 45em;
+    }
+
+    /*
+ * Header
+ */
+    .nav-masthead .nav-link {
+        color: rgba(255, 255, 255, .5);
+        border-bottom: .25rem solid transparent;
+    }
+
+    .nav-masthead .nav-link:hover,
+    .nav-masthead .nav-link:focus {
+        border-bottom-color: rgba(255, 255, 255, .25);
+    }
+
+    .nav-masthead .nav-link+.nav-link {
+        margin-left: 1rem;
+    }
+
+    .nav-masthead .active {
+        color: #fff;
+        border-bottom-color: #fff;
+    }
+    .container{
+        text-align: center;
+    }
+</style>
+
+<body class="container-fluid h-100 text-center text-bg-dark"
+    style="background-image: url(unopaloozaimgs/pexels-johannes-havn-2417730.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; background-blend-mode: overlay; ">
+   
+    <div class="cover-container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-3">
+            <div>
+                <nav class="navbar nav-masthead justify-content-center float-md-center">
+                    <a class="nav-link fw-bold py-1 px-1" href="index.html">About</a>
+                    <a class="nav-link fw-bold py-1 px-1" href="#">Schedules</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold py-1 px-1" aria-current="page"
+                                href="BuyTickets.html"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Buy Tickets
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="Register.html">
+                                        Register
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="LogIn.html">
+                                        Log In
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="nav-link fw-bold py-1 px-1" href="#">Partners</a>
+                    <a class="nav-link fw-bold py-1 px-1" href="#">Help</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main class="mx-auto px-3 m-5 text-light" style="box-shadow: 7px 10px 171px 20px rgba(255,255,255,0.85);">
+            <br><br>
+            <a href="#"><img src="unopaloozaimgs/unopaloozalogos/1.jpg" class="img-thumbnail rounded-circle"
+                    style="width: 200px;"></a>
+            <br><br><br>
+            <p class="display-5 fw-bolder">You must register first before you can purchase a ticket!</p>
+            
+            <div class="container-fluid">
+                <form class="row g-3">
+                <center>
+                    <div class="col-md-6">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                    </div>    
+                        <div class="col-md-6">
+                            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                    
+                                        
+            <div class="container-fluid">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputFullName" class="form-label">Full Name</label>
+                      <input type="fullname" class="form-control" id="FullName" placeholder="First Name and Last Name">
+                    </div>
+              
+                    <div class="col-6">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="House #, Street Name, Barangay, City, Province">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputMobile" class="form-label">Mobile</label>
+                      <input type="number" class="form-control" id="inputMobile" placeholder="0999999999">
+                    </div>
+                </form>
+       
+            <p class="lead">
+                <br>               
+            </p>
+            </center>
+        </main>
+    </div>
+
+    <br><br>
+<!--end of registration form-->
+
+<!--Button trigger modal-->
+
+<div class="container-fluid">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Register
+      </button>  
+      <!--modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Are you sure you want to purchase a ticket?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Yes, proceed
+                <a class="button" href="ChooseBundle.html"></a>
+              </button>
+            </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+    <!-- Footer start -->
+    <br><br>
+    <footer class=" container py-1 my-1">
+        <ul class="nav justify-content-center pb-1 mb-1 border-bottom">
+            <li><a href="https://twitter.com/gelogabz" class="nav-link px-2 text-muted"><i
+                        class="nav-item bi bi-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/thegeloman/" class="nav-link px-2 text-muted"><i
+                        class="bi bi-instagram"></i></a></li>
+            <li><a href="https://github.com/gelogabz" class="nav-link px-2 text-muted"><i class="bi bi-github"></i></a>
+            </li>
+            <li><a href="https://www.reddit.com/user/gelogabz" class="nav-link px-2 text-muted"><i
+                        class="bi bi-reddit"></i></a></li>
+        </ul>
+        <p class="text-center text-muted">&copy;2022 <br>Team Uno (Baring, Aranas, Santos) for WD20P </p>
+    </footer>
+    <!-- Footer end -->
+
+</body>
+
+</html>
