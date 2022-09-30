@@ -85,11 +85,31 @@
             <div>
                 <nav class="navbar nav-masthead justify-content-center float-md-center">
                     <a class="nav-link fw-bold py-1 px-1" aria-current="page" href="index.html">Home</a>
-                    <a class="nav-link fw-bold py-1 px-1" aria-current="page" href="AboutPage.html">About</a>
-                    <a class="nav-link fw-bold py-1 px-1" href="#">Schedules</a>
-                    <a class="nav-link fw-bold py-1 px-1" href="#">Buy Tickets</a>
-                    <a class="nav-link fw-bold py-1 px-1" href="#">Partners</a>
-                    <a class="nav-link fw-bold py-1 px-1 active" href="Helppage.html">Help</a>
+                    <a class="nav-link fw-bold py-1 px-1 " aria-current="page" href="AboutPage.html">About</a>
+                    <a class="nav-link fw-bold py-1 px-1" href="Schedules.html">Schedules</a>
+                    <ul class="dropdown" style="margin: 0; right:15px;">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold py-1 px-1" aria-current="page"
+                                href="BuyTickets.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Buy Tickets
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a class="dropdown-item" href="Register.html">
+                                        Register
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="LogIn.html">
+                                        Log In
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="nav-link fw-bold py-1 px-1" aria-current="page" href="Partnerpage.html">Partners</a>
+                    <a class="nav-link fw-bold py-1 px-1 active" aria-current="page" href="Helppage.html">Help</a>
                 </nav>
             </div>
         </header>
@@ -100,688 +120,982 @@
             <br>
             <fieldset class="container mx-auto justify-content-center border">
                 <legend class="text-center m-4 display-6">Frequently Asked Questions</legend>
-                <p>Can't find your question listed? <a href="#" class="fw-bold text-light">Contact Us</a></p>
-            <!--Accordion-->
-            <div class="container w-full text-start">
-                <div class="row">
-                    <div class="col-sm">
-                        <p>Ticketing Questions</p>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <i class="fa-solid fa-arrow-right me-2">GA Passes</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        GA PASS: Entry into the main festival grounds on Friday, Saturday and Sunday. Every one wishing to enter the festival will need their own pass.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <i class="fa-solid fa-arrow-right me-2">VIP Passes</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        VIP PASS: Entry into the main festival grounds on Friday, Saturday, and Sunday <strong>AND</strong> access to additional VIP areas. The main VIP Viewing Area is located adjacent to the Oceania Stage. VIPs enjoy more comfortable amenities including shade, premium restrooms, private bars and expedited entry into the festival.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        <i class="fa-solid fa-arrow-right me-2">GA Car Camping Passes</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        GA Car Camping Passes: Vehicle entry into the GA campgrounds. Includes:         
-                                        <br>                 
-                                        • One (1) 20x20 Car Camping Spot and can fit 1-2 tents and 1 standard size car, truck, or SUV      
-                                        <br>            
-                                        • There is no set limit on the amount of people allowed in Car Camping spots, but your vehicle and camping gear may not spill over into fire lanes.
-                                        <br>  
-                                        • There is no “per person” camping fee. So if, for example, you have 3 people coming in one car, you only need 1 car camping pass (everyone will need their own festival ticket though).
-                                        <br>  
-                                        All Campers must have a Festival Pass in addition to their Car camping pass to enter the campgrounds.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        <i class="fa-solid fa-arrow-right me-2">VIP Car Camping Passes</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        VIP Car Camping Passes: Premium Car camping close to the main festival entrance. This is per vehicle and includes: 
-                                        <br>  
-                                        • Premium car campsite close to the main festival entrance
-                                        <br>  
-                                        • Includes one (1) 20x20 VIP Car Camping Spot and can comfortably fit 1-2 tents and 1 standard sized car, truck, or SUV.
-                                        <br>  
-                                        • Includes 2 VIP Camping Wristbands (more “VIP Companion” wristbands can be purchased)
-                                        <br>  
-                                        • Exclusive amenities to the VIP campground including comfort restrooms and shower trailers.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        <i class="fa-solid fa-arrow-right me-2">VIP Companion Camping Passes</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        VIP Companion Camping Pass: Entry into the VIP campgrounds. This allows you to camp at Imagine as a companion to a VIP Car Camping Pass, allowing you to join up with your VIP friends and share a campsite. Please note that this “VIP Companion” Camping Pass does not include your own campsite or parking. Companion passes are available for the VIP campgrounds only.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSix">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        <i class="fa-solid fa-arrow-right me-2">Pool Parties</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Pool Party Tickets: Access to the pool parties from 12-3 on Saturday and Sunday, inside the festival. Tickets sold per day, if you would like to attend both days you will need to purchase both a Saturday and Sunday pass. Please print out your ticket in advance of the show and bring it with you, you can also pull it up on your mobile phone but sometimes phones die, so best to keep a hard copy. All pool party guests will also need to have a festival wristband to enter. 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                        <i class="fa-solid fa-arrow-right me-2">Pre-Party Concert</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Thursday Pre-Party: This is a separately ticketed event. To attend, you will need to purchase an Early Arrival + Pre-Party pass, for which all tickets now come with early arrival. You have to be attending to the festival in order to attend this event.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingEight">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                        <i class="fa-solid fa-arrow-right me-2">Is Camping included with the regular GA or VIP Pass?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes! (New for 2022) GA Tent Camping and 24 Hour GA Campground access, including Thursday Early Arrival, is now included in both the GA and VIP Festival Passes. (Note: Every vehicle requires a car camping or day parking pass)
-                                        To upgrade to VIP Camping, you will need to purchase a VIP Car Camping Pass.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingNine">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                        <i class="fa-solid fa-arrow-right me-2">Can I upgrade my tickets? </i>
-                                    </button>
-                                </h2>
-                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        If you’d like to upgrade your tickets, we recommend you purchase the ticket you wish to upgrade to. Then, reach out to us at info@imaginefestival.com. Once we verify your new purchase, we can refund your original order to the card used at purchase. 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                        <i class="fa-solid fa-arrow-right me-2">Where can I view my ticket?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        You should have received an email confirmation from SeeTickets after you have purchased your tickets. You may also log in to your SeeTickets account to view your tickets. Please keep in mind that your tickets will start to ship between August and September in wristband form
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingEleven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                        <i class="fa-solid fa-arrow-right me-2">Do payment plans take out payments automatically?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, if you have signed up for a payment plan, the amount due will be taken out of your account automatically on the due date. You may pay these earlier than the due dates if you’d like.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwelve">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                        <i class="fa-solid fa-arrow-right me-2">Are there single-day passes available?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        At this time, we do not have any single-day passes available for purchase. GA or VIP Passes are for September 16.17.18, 2022. Please check back in at a later date for possible single-day passes. If we sell out in advance, single day tickets will not be available. 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                                        <i class="fa-solid fa-arrow-right me-2">When will wristbands be shipped?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Wristbands will be shipped to your address provided at checkout between August and September, prior to the festival. The last day to buy tickets before the cut-off day is TBA.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFourteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                                        <i class="fa-solid fa-arrow-right me-2">What if I need to change my address for my tickets to be shipped?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Please log in to your SeeTickets account to change your address.
-                                        If you need to update the address on your tickets, please do so by July 25, 2022. <a href="#">Change Address Instructions Here</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFifteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-                                        <i class="fa-solid fa-arrow-right me-2">I signed out as a guest on SeeTickets but need to change my address or view my tickets.</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Please contact SeeTickets at <a href="#">help@seetickets.us</a> to set up your account.
-                                    </div>
-                                </div>
-                            </div>
-                            <!--werewrewr-->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSixteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                                        <i class="fa-solid fa-arrow-right me-2">Where can I buy Pool Party tickets?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Pool Party tickets are available as an add on and are sold separately from your festival ticket. You will need both a pool party pass and festival ticket to attend the pool parties. 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeventeen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                                        <i class="fa-solid fa-arrow-right me-2">Are the Pool Parties included with any festival or camping ticket?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        The pool parties are NOT included with any festival or camping ticket/package. This is because of capacity reasons within the pool. If you would like to attend either of the pool parties, you must purchase these as a separate ticket. These sell out quickly so don't wait to buy your pool party pass.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingEighteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseThree">
-                                        <i class="fa-solid fa-arrow-right me-2">Are there ADA Accommodations?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, we are still updating our ADA information but please reach out to info@imaginefestival.com for general questions and guidance. 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingNineteen">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
-                                        <i class="fa-solid fa-arrow-right me-2">Festival Re-Entry</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        There is NO festival re-entry unless you are camping. If you are camping YOU CAN come and go between the festival and your campsite. If you have an emergency and need to leave, please find one of our camping staff members to help you
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwenty">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
-                                        <i class="fa-solid fa-arrow-right me-2">Allowed/ Not Allowed Items</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <b>CAMPGROUND ALLOWED</b>
+                <p>Can't find your question listed?
 
+                    <a class="fw-bold text-decoration-underline text-primary" href="#" data-bs-toggle="modal"
+                        data-bs-target="#modalone">
+                        Contact Us
+                    </a>
 
-                                        <b>WHAT YOU CAN BRING DON’T LEAVE HOME WITHOUT IT</b>
-                                        <br>  
-                                        • Rain gear
-                                        <br>  
-                                        • Camping gear (tent, tarp, sleeping bags, etc.)
-                                        <br>  
-                                        • Your favorite hoodie
-                                        <br>  
-                                        • Extra shoes/sneakers
-                                        <br>  
-                                        • Mud boots (in case it rains)
-                                        <br>  
-                                        • Bug spray
-                                        <br>  
-                                        • Sunscreen (lots of it)
-                                        <br>  
-                                        • A hat for shade
-                                        <br>  
-                                        • A bandana
-                                        <br>  
-                                        • Sunglasses
-                                        <br>  
-                                        • Reusable Water Bottles or Camelbak-style bladders (must be empty)
-                                        <br>  
-                                        • Biodegradable plastic bags for trash (Help keep our beautiful site clean)
-                                        <br>  
-                                        • Toilet paper (you never know)
-                                        <br>  
-                                        • Lantern / flashlight / headlamp (AND extra batteries!)
-                                        <br>  
-                                        • Flag or balloon to identify your campsite
-                                        <br>  
-                                        • Prescription Medications, Inhalers, and Epi-Pens (See FAQ for Prescription Medication Requirements)
-                                        <br>  
-                                        • Extra set of keys to keep with you at all times (avoid keeping keys in your car!)
-                                        <br>  
-                                        <b>YOU DON’T NEED IT TO SURVIVE, BUT YOU’LL BE HAPPY YOU HAVE IT</b>
-                                        <br>  
-                                        • Small luggage lock for your tent (please don’t bring any valuables – if you must, keep them locked out of view in your vehicle) or rent one of our lockers.
-                                        <br>  
-                                        • soaps, detergents and shampoos
-                                        <br>  
-                                        • Smokers – bring an ashtray! Every butt you throw on the ground someone has to pick up!
-                                        <br>  
-                                        • Blanket (for sitting)
-                                        <br>  
-                                        • Earplugs (for sleeping)
-                                        <br>  <br>  
+                    <!-- Modal -->
+                <div class="modal fade" id="modalone" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!--Modal Header-->
+                            <div class="modal-header">
+                                <h5 class="modal-title text-dark" id="modalTitle">
+                                    Contact Us
+                                </h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close">
 
-                                        <b>NOT ALLOWED</b>
-                                        <br>  
-                                        <b>CAMPGROUND PROHIBITED ITEMS</b>
-                                        <br>  
-                                        These items are not allowed under any circumstances (Remember, we search every vehicle):
-                                        <br>  
-                                        • Bad Attitudes (Positive vibes only!)
-                                        <br>  
-                                        • Obscure gels, liquids, or wax, including vape juice (juice within tank is okay)
-                                        <br>  
-                                        • Glass  of any kind (this includes wine bottles, drinking glasses, pickle jars, and test tubes)
-                                        <br>  
-                                        • No kegs are allowed into the festival. We will seize ALL excessive* amounts of alcohol. *Excessive means anything over 1 case of beer per person and 1 box of wine per person. Kegs, glass, liquor, or vending of alcohol is not permitted in the campgrounds, and alcohol may not be brought from the campsites into the festival venue.
-                                        <br>  
-                                        • Weapons, items that could be used as a weapon, or harmful objects of any kind (including steak knives, pepper spray,etc)
-                                        <br>  
-                                        • Drones
-                                        <br>  
-                                        • Fireworks or explosives of any kind
-                                        <br>  
-                                        • Illegal substances
-                                        <br>  
-                                        • Bicycles, scooters, or personal motorized vehicles (including, but not limited to: golf carts, ATVs, motor scooters, powered skateboards, and airboats)Professional photography equipment (cameras with a detachable lens >2”, tripods, video cameras, etc)
-                                        <br>  
-                                        • Pets (even really, really small ones- Please reference service animal policy)
-                                        <br>  
-                                        • Box trucks or trailers (a camping trailer is OK, but it is considered an RV which requires an RV pass)
-                                        <br>  
-                                        • Charcoal, lighter fluid, gasoline, firewood or other combustibles used to generate flame or heat (other than gas grills).
-                                        <br>  
-                                        •  Gas-powered generators, No gas generators, No gas cans
-                                        <br>  
-                                        • Laser pens or similar focused-light devices
-                                        <br>  
-                                        • Over-the-Counter Medications (unless in unopened, factory-sealed packaging)
-                                        <br>  
-                                        • Vitamins or Supplements
-                                        <br>  
-                                        • Non-Compliant Prescription Medications (See FAQ for Prescription Medication Questions)
-                                        <br>  
-                                        • Vending of any kind is not allowed (Sharing yes, selling, no. You know the difference.)
-                                        <br>  
-                                        • No totems over 10 feet in height, constructed of metal or wooden pieces, sharpened elements, or are capable of being pounded into the ground or causing harm to others.
-                                        <br>  
-                                        • NO OPEN FLAMES OF ANY KIND WILL BE ALLOWED. (CAMP FIRES, FIRE PITS, TIKI TORCHES, ETC)]
-                                        <br>  
-                                        • Branded, wrapped or sponsored vehicles, RVs, tents, etc utilized for marketing purposes.
-                                        <br>  
-                                        <b>FESTIVAL GROUND PROHIBITED ITEMS</b>
-                                        <br>  <br>  
-
-                                        
-
-                                        These items are not allowed under any circumstances:
-                                        <br>  
-                                        • Illegal substances
-                                        <br>  
-                                        • Drugs or drug paraphernalia
-                                        <br>  
-                                        • Pets
-                                        <br>  
-                                        • Chairs
-                                        <br>  
-                                        • Compressed Gas Cylinders (CO2, Propane, etc.)
-                                        <br>  
-                                        • Massagers
-                                        <br>  
-                                        • Laser pointers and air horns
-                                        <br>  
-                                        • Pacifiers
-                                        <br>  
-                                        • Stuffed Animals
-                                        <br>  
-                                        • Eye drops
-                                        <br>  
-                                        • Over-the-counter medications (see FAQ for Prescription Medication Requirements)
-                                        <br>  
-                                        • Glass, cans, cups, or coolers
-                                        <br>  
-                                        • Markers, pens or spray paint
-                                        <br>  
-                                        • Unauthorized vending/soliciting materials (promotional stickers, flyers, commodities, etc)
-                                        <br>  
-                                        • Balls or Frisbees
-                                        <br>  
-                                        • Large purses, bags, or backpacks (over 12″×12″)
-                                        <br>  
-                                        • Outside food or beverages (including alcohol and candy)
-                                        <br>  
-                                        • Weapons of any kind (includes pocket knives, pepper spray, firearms, etc.)
-                                        <br>  
-                                        • Professional photo, video, or audio recording equipment (no detachable lenses, tripods, big zooms, or commercial-use rigs)
-                                    </div>
-                                </div>
+                                </button>
                             </div>
-                            <br><br><br>
-                            <p>Camping Questions</p>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentyone">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyone" aria-expanded="false" aria-controls="collapseTwentyone">
-                                        <i class="fa-solid fa-arrow-right me-2">What is the address for people who are camping?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentyone" class="accordion-collapse collapse" aria-labelledby="headingTwentyone" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        If you are camping, you must go to the 502 Bass Ferry Road address UNLESS you are in an Uber or shuttle. If you are in an Uber or shuttle you can proceed to the 0 Gore Springs address and use the box office or shuttle up to camping from there.
+                            <!--end of header-->
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group text-dark">
+                                        <label for="recipient-name" class="col-form-label">Recipient</label>
+                                        <input type="text" class="form-control" id="recipient-name"
+                                            placeholder="UnoPalooza@gmail.com" disabled>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentytwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentytwo" aria-expanded="false" aria-controls="collapseTwentytwo">
-                                        <i class="fa-solid fa-arrow-right me-2">Does a Car camping pass include festival entry?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentytwo" class="accordion-collapse collapse" aria-labelledby="headingTwentytwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        No, your Car camping pass will only allow your vehicle into the campgrounds. You must also purchase a GA or VIP Pass for festival entry. 
-                                        <br>
-                                        <br>
-                                        All guests must have a festival pass in order to access the GA campgrounds, and VIP Camping Pass to enter the VIP Campgrounds. You cannot just purchase a Car camping pass without a festival ticket.
+                                    <div class="form-group text-dark">
+                                        <label for="message-text" class="col-form-label">Message:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
                                     </div>
-                                </div>
+                                </form>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentythree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentythree" aria-expanded="false" aria-controls="collapseTwentythree">
-                                        <i class="fa-solid fa-arrow-right me-2">Do you have Tent Only Camping?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentythree" class="accordion-collapse collapse" aria-labelledby="headingTwentythree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, if you’d like to set up your camp without a car, you may do so in our Tent-Only Campground. You do not need an additional camping pass for the Tent Only grounds, access to this area is included with your festival pass. This is approximately a 10 x 10 ft camping space. If you want to bring a vehicle you will need to purchase a Car Camping Pass or Parking Pass. If you want to camp with your friends in GA Camping, and do not have a Car Camping Pass, you may link up with them as long as they have enough room for your tent. 
-                                    </div>
-                                </div>
+                            <!--end of modal body-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                                <a href="Support.html"><button type="button" class="btn btn-primary">Send
+                                        message</button></a>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentyfour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyfour" aria-expanded="false" aria-controls="collapseTwentyfour">
-                                        <i class="fa-solid fa-arrow-right me-2">Do you have any other options for lodging?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentyfour" class="accordion-collapse collapse" aria-labelledby="headingTwentyfour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Do you have any other options for lodging?
-
-                                        Please view our Hotels, RVs, and Qubes here: <a href="#">https://secure.unity.travel/events/imagine-2022/products</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><br><br>
-                            <p>General Questions</p>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentyfive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyfive" aria-expanded="false" aria-controls="collapseTwentyfive">
-                                        <i class="fa-solid fa-arrow-right me-2">Where do I go if I'm not camping?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentyfive" class="accordion-collapse collapse" aria-labelledby="headingTwentyfive" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        DAILY ENTRANCE & RVS:
-                                        <br><br>
-                                        RVs / Daily Parking / Hotel Shuttles / Rideshare (Ubers, Lyft, Taxi etc.) 
-                                        <br><br>
-                                        0 Gore Springs Road
-                                        <br><br>
-                                        Rome, GA 30161
-                                        <br><br>
-                                        Follow traffic signage to Box Office/Will Call, RV Tollbooths, or Daily Parking/Rideshare Pick up/drop off
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentysix">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentysix" aria-expanded="false" aria-controls="collapseTwentysix">
-                                        <i class="fa-solid fa-arrow-right me-2">Age Requirements</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentysix" class="accordion-collapse collapse" aria-labelledby="headingTwentysix" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        You must be 18 years or older to attend Imagine Music Festival. You must be 21 or older to buy, consume, or bring alcohol onto the premises. Please bring a valid government issued photo ID.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentyseven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyseven" aria-expanded="false" aria-controls="collapseTwentyseven">
-                                        <i class="fa-solid fa-arrow-right me-2">General Ticket Information</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentyseven" class="accordion-collapse collapse" aria-labelledby="headingTwentyseven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">   
-                                        All guests will need a GA or VIP festival pass in order to enter the main festival grounds. If you are attending the Pre-Party Concert on Thursday, or any of the Pool Parties on Saturday and Sunday, you will need to have both a festival wristband and the Add On Pre-Party or Pool Party pass.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentyeight">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyeight" aria-expanded="false" aria-controls="collapseTwentyeight">
-                                        <i class="fa-solid fa-arrow-right me-2">Will there be showers in camping</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentyeight" class="accordion-collapse collapse" aria-labelledby="headingTwentyeight" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Showers will be available at each campsite for a small fee. Make sure to bring your toiletries! 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwentynine">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentynine" aria-expanded="false" aria-controls="collapseTwentynine">
-                                        <i class="fa-solid fa-arrow-right me-2">VIP Showers</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseTwentynine" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        VIP ticket holders do not have to pay for the VIP showers.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirty">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirty" aria-expanded="false" aria-controls="collapseThirty">
-                                        <i class="fa-solid fa-arrow-right me-2">Will there be lockers?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirty" class="accordion-collapse collapse" aria-labelledby="headingThirty" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes they are available to reserve while they last. <a href="#">Get yours here</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtyone">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtyone" aria-expanded="false" aria-controls="collapseThirtyone">
-                                        <i class="fa-solid fa-arrow-right me-2">Will there be Medical Assistance on Site?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtyone" class="accordion-collapse collapse" aria-labelledby="headingThirtyone" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        We will have medical staff on-site for the entire duration of Imagine. Upon arrival, please take note of the location of our clearly-marked medical tents should you need to stop by during the event. If you need medical assistance, contact the nearest security guard, staff member, volunteer, or medic, or go to one of the on-site medical tents. If you’re not sure whether it’s an emergency or not, assume it is and get help immediately. All of our safety and medical staff are here to help you enjoy the festival and make it home safely – no judgements.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtytwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtytwo" aria-expanded="false" aria-controls="collapseThirtytwo">
-                                        <i class="fa-solid fa-arrow-right me-2">Will there be Daily Parking?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtytwo" class="accordion-collapse collapse" aria-labelledby="headingThirtytwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, there will be daily parking. Please purchase <a href="#">passes here.</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtythree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtythree" aria-expanded="false" aria-controls="collapseThirtythree">
-                                        <i class="fa-solid fa-arrow-right me-2">Bag Policy</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtythree" class="accordion-collapse collapse" aria-labelledby="headingThirtythree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        No large purses, bags, or backpacks (over 12″×12″)
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtyfour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtyfour" aria-expanded="false" aria-controls="collapseThirtyfour">
-                                        <i class="fa-solid fa-arrow-right me-2">Can I bring my vape pen?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtyfour" class="accordion-collapse collapse" aria-labelledby="headingThirtyfour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Refillable vape devices are allowed only with enough liquid for one day's use. No extra juice is allowed. All juice must be attached to the vape device.
-                                        <br>
-                                        Single Use, factory-sealed vape pens such as Juuls, Post, etc, Extra Pods must be factory sealed upon entry.
-                                    </div>
-                                </div>
-                            </div>
-                            <br><br><br>
-                            <p>Shuttle Questions</p>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtyfive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtyfive" aria-expanded="false" aria-controls="collapseThirtyfive">
-                                        <i class="fa-solid fa-arrow-right me-2">Will all hotels listed under the Imagine hotel list on the site have shuttles running to and from them?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtyfive" class="accordion-collapse collapse" aria-labelledby="headingThirtyfive" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, Every Single Hotel under the imagine list will have a shuttle pick up and drop off at them on a rotating basis (one shuttle color & line for Rome, one shuttle color and line for Cartersville).  To keep things simple for the guests, all they have to do is buy a shuttle pass and it will be honored at either location. (we still ask them to select which city now that we have added Cartersville).
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtysix">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtysix" aria-expanded="false" aria-controls="collapseThirtysix">
-                                        <i class="fa-solid fa-arrow-right me-2">What will the pick up and drop off times be for these and how often do they run?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtysix" class="accordion-collapse collapse" aria-labelledby="headingThirtysix" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Departure: 1 hour before doors open until 7pm each night. Return: 1 hour before show ends until 1 hour after show ends each night.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtyseven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtyseven" aria-expanded="false" aria-controls="collapseThirtyseven">
-                                        <i class="fa-solid fa-arrow-right me-2">For the one way shuttle pass, is there an option to purchase one that ONLY goes from a hotel to the venue?</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtyseven" class="accordion-collapse collapse" aria-labelledby="headingThirtyseven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        No
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtyeight">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtyeight" aria-expanded="false" aria-controls="collapseThirtyeight">
-                                        <i class="fa-solid fa-arrow-right me-2">Parking at Shuttle Locations:</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtyeight" class="accordion-collapse collapse" aria-labelledby="headingThirtyeight" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        You will not be authorized to park at your drop off location unless you are a guest at that hotel.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThirtynine">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirtynine" aria-expanded="false" aria-controls="collapseThirtynine">
-                                        <i class="fa-solid fa-arrow-right me-2">Shuttle Running Times:</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseThirtynine" class="accordion-collapse collapse" aria-labelledby="headingThirtynine" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Shuttles run continuously from all hotels on a loop to the show.  We time it so there is a bus there about every 30 minutes approximately.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFourty">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourty" aria-expanded="false" aria-controls="collapseFourty">
-                                        <i class="fa-solid fa-arrow-right me-2">Rideshare</i>
-                                    </button>
-                                </h2>
-                                <div id="collapseFourty" class="accordion-collapse collapse" aria-labelledby="headingFourty" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        If you are using rideshare please give the driver this address: Gore Springs Rd SE, Rome, GA 30161
-                                    </div>
-                                </div>
-                            </div>
-                            <br><br><br>
                         </div>
                     </div>
                 </div>
-            </div>
-        </fieldset>
-                    <!--Help support-->
-                        <div class="container text-start my-3">
-                            <p class="h2">Lost & Found</p>
-                            <p>All found property may contact us at: <a href="#">0935-5343-343 </a></p>
-                            <p class="mb-5">Here you can register your devices to prevent loss, search for what's missing 24/7, and quickly turn in what's found to help out other staff and attendees.</p>
+                </p>
+                <!--Accordion-->
+                <div class="container w-full text-start">
+                    <div class="row">
+                        <div class="col-sm">
+                            <p>Ticketing Questions</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <i class="fa-solid fa-arrow-right me-2">GA Passes</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            GA PASS: Entry into the main festival grounds on Friday, Saturday and
+                                            Sunday. Every one wishing to enter the festival will need their own pass.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="fa-solid fa-arrow-right me-2">VIP Passes</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            VIP PASS: Entry into the main festival grounds on Friday, Saturday, and
+                                            Sunday <strong>AND</strong> access to additional VIP areas. The main VIP
+                                            Viewing Area is located adjacent to the Oceania Stage. VIPs enjoy more
+                                            comfortable amenities including shade, premium restrooms, private bars and
+                                            expedited entry into the festival.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="fa-solid fa-arrow-right me-2">GA Car Camping Passes</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            GA Car Camping Passes: Vehicle entry into the GA campgrounds. Includes:
+                                            <br>
+                                            • One (1) 20x20 Car Camping Spot and can fit 1-2 tents and 1 standard size
+                                            car, truck, or SUV
+                                            <br>
+                                            • There is no set limit on the amount of people allowed in Car Camping
+                                            spots, but your vehicle and camping gear may not spill over into fire lanes.
+                                            <br>
+                                            • There is no “per person” camping fee. So if, for example, you have 3
+                                            people coming in one car, you only need 1 car camping pass (everyone will
+                                            need their own festival ticket though).
+                                            <br>
+                                            All Campers must have a Festival Pass in addition to their Car camping pass
+                                            to enter the campgrounds.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            <i class="fa-solid fa-arrow-right me-2">VIP Car Camping Passes</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            VIP Car Camping Passes: Premium Car camping close to the main festival
+                                            entrance. This is per vehicle and includes:
+                                            <br>
+                                            • Premium car campsite close to the main festival entrance
+                                            <br>
+                                            • Includes one (1) 20x20 VIP Car Camping Spot and can comfortably fit 1-2
+                                            tents and 1 standard sized car, truck, or SUV.
+                                            <br>
+                                            • Includes 2 VIP Camping Wristbands (more “VIP Companion” wristbands can be
+                                            purchased)
+                                            <br>
+                                            • Exclusive amenities to the VIP campground including comfort restrooms and
+                                            shower trailers.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            <i class="fa-solid fa-arrow-right me-2">VIP Companion Camping Passes</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            VIP Companion Camping Pass: Entry into the VIP campgrounds. This allows you
+                                            to camp at Imagine as a companion to a VIP Car Camping Pass, allowing you to
+                                            join up with your VIP friends and share a campsite. Please note that this
+                                            “VIP Companion” Camping Pass does not include your own campsite or parking.
+                                            Companion passes are available for the VIP campgrounds only.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            <i class="fa-solid fa-arrow-right me-2">Pool Parties</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Pool Party Tickets: Access to the pool parties from 12-3 on Saturday and
+                                            Sunday, inside the festival. Tickets sold per day, if you would like to
+                                            attend both days you will need to purchase both a Saturday and Sunday pass.
+                                            Please print out your ticket in advance of the show and bring it with you,
+                                            you can also pull it up on your mobile phone but sometimes phones die, so
+                                            best to keep a hard copy. All pool party guests will also need to have a
+                                            festival wristband to enter.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSeven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                            aria-expanded="false" aria-controls="collapseSeven">
+                                            <i class="fa-solid fa-arrow-right me-2">Pre-Party Concert</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Thursday Pre-Party: This is a separately ticketed event. To attend, you will
+                                            need to purchase an Early Arrival + Pre-Party pass, for which all tickets
+                                            now come with early arrival. You have to be attending to the festival in
+                                            order to attend this event.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                            aria-expanded="false" aria-controls="collapseEight">
+                                            <i class="fa-solid fa-arrow-right me-2">Is Camping included with the regular
+                                                GA or VIP Pass?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEight" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Yes! (New for 2022) GA Tent Camping and 24 Hour GA Campground access,
+                                            including Thursday Early Arrival, is now included in both the GA and VIP
+                                            Festival Passes. (Note: Every vehicle requires a car camping or day parking
+                                            pass)
+                                            To upgrade to VIP Camping, you will need to purchase a VIP Car Camping Pass.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingNine">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                            aria-expanded="false" aria-controls="collapseNine">
+                                            <i class="fa-solid fa-arrow-right me-2">Can I upgrade my tickets? </i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNine" class="accordion-collapse collapse"
+                                        aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            If you’d like to upgrade your tickets, we recommend you purchase the ticket
+                                            you wish to upgrade to. Then, reach out to us at info@imaginefestival.com.
+                                            Once we verify your new purchase, we can refund your original order to the
+                                            card used at purchase.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                            aria-expanded="false" aria-controls="collapseTen">
+                                            <i class="fa-solid fa-arrow-right me-2">Where can I view my ticket?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            You should have received an email confirmation from SeeTickets after you
+                                            have purchased your tickets. You may also log in to your SeeTickets account
+                                            to view your tickets. Please keep in mind that your tickets will start to
+                                            ship between August and September in wristband form
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEleven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEleven"
+                                            aria-expanded="false" aria-controls="collapseEleven">
+                                            <i class="fa-solid fa-arrow-right me-2">Do payment plans take out payments
+                                                automatically?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEleven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Yes, if you have signed up for a payment plan, the amount due will be taken
+                                            out of your account automatically on the due date. You may pay these earlier
+                                            than the due dates if you’d like.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwelve">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
+                                            aria-expanded="false" aria-controls="collapseTwelve">
+                                            <i class="fa-solid fa-arrow-right me-2">Are there single-day passes
+                                                available?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwelve" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            At this time, we do not have any single-day passes available for purchase.
+                                            GA or VIP Passes are for September 16.17.18, 2022. Please check back in at a
+                                            later date for possible single-day passes. If we sell out in advance, single
+                                            day tickets will not be available.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirteen"
+                                            aria-expanded="false" aria-controls="collapseThirteen">
+                                            <i class="fa-solid fa-arrow-right me-2">When will wristbands be shipped?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirteen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Wristbands will be shipped to your address provided at checkout between
+                                            August and September, prior to the festival. The last day to buy tickets
+                                            before the cut-off day is TBA.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFourteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFourteen"
+                                            aria-expanded="false" aria-controls="collapseFourteen">
+                                            <i class="fa-solid fa-arrow-right me-2">What if I need to change my address
+                                                for my tickets to be shipped?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFourteen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Please log in to your SeeTickets account to change your address.
+                                            If you need to update the address on your tickets, please do so by July 25,
+                                            2022. <a href="#">Change Address Instructions Here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFifteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFifteen"
+                                            aria-expanded="false" aria-controls="collapseFifteen">
+                                            <i class="fa-solid fa-arrow-right me-2">I signed out as a guest on
+                                                SeeTickets but need to change my address or view my tickets.</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFifteen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Please contact SeeTickets at <a href="#">help@seetickets.us</a> to set up
+                                            your account.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--werewrewr-->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSixteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSixteen"
+                                            aria-expanded="false" aria-controls="collapseSixteen">
+                                            <i class="fa-solid fa-arrow-right me-2">Where can I buy Pool Party
+                                                tickets?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSixteen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Pool Party tickets are available as an add on and are sold separately from
+                                            your festival ticket. You will need both a pool party pass and festival
+                                            ticket to attend the pool parties.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSeventeen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSeventeen"
+                                            aria-expanded="false" aria-controls="collapseSeventeen">
+                                            <i class="fa-solid fa-arrow-right me-2">Are the Pool Parties included with
+                                                any festival or camping ticket?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeventeen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            The pool parties are NOT included with any festival or camping
+                                            ticket/package. This is because of capacity reasons within the pool. If you
+                                            would like to attend either of the pool parties, you must purchase these as
+                                            a separate ticket. These sell out quickly so don't wait to buy your pool
+                                            party pass.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEighteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEighteen"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="fa-solid fa-arrow-right me-2">Are there ADA Accommodations?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEighteen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Yes, we are still updating our ADA information but please reach out to
+                                            info@imaginefestival.com for general questions and guidance.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingNineteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseNineteen"
+                                            aria-expanded="false" aria-controls="collapseNineteen">
+                                            <i class="fa-solid fa-arrow-right me-2">Festival Re-Entry</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNineteen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            There is NO festival re-entry unless you are camping. If you are camping YOU
+                                            CAN come and go between the festival and your campsite. If you have an
+                                            emergency and need to leave, please find one of our camping staff members to
+                                            help you
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwenty">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwenty"
+                                            aria-expanded="false" aria-controls="collapseTwenty">
+                                            <i class="fa-solid fa-arrow-right me-2">Allowed/ Not Allowed Items</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwenty" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwenty" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <b>CAMPGROUND ALLOWED</b>
+
+
+                                            <b>WHAT YOU CAN BRING DON’T LEAVE HOME WITHOUT IT</b>
+                                            <br>
+                                            • Rain gear
+                                            <br>
+                                            • Camping gear (tent, tarp, sleeping bags, etc.)
+                                            <br>
+                                            • Your favorite hoodie
+                                            <br>
+                                            • Extra shoes/sneakers
+                                            <br>
+                                            • Mud boots (in case it rains)
+                                            <br>
+                                            • Bug spray
+                                            <br>
+                                            • Sunscreen (lots of it)
+                                            <br>
+                                            • A hat for shade
+                                            <br>
+                                            • A bandana
+                                            <br>
+                                            • Sunglasses
+                                            <br>
+                                            • Reusable Water Bottles or Camelbak-style bladders (must be empty)
+                                            <br>
+                                            • Biodegradable plastic bags for trash (Help keep our beautiful site clean)
+                                            <br>
+                                            • Toilet paper (you never know)
+                                            <br>
+                                            • Lantern / flashlight / headlamp (AND extra batteries!)
+                                            <br>
+                                            • Flag or balloon to identify your campsite
+                                            <br>
+                                            • Prescription Medications, Inhalers, and Epi-Pens (See FAQ for Prescription
+                                            Medication Requirements)
+                                            <br>
+                                            • Extra set of keys to keep with you at all times (avoid keeping keys in
+                                            your car!)
+                                            <br>
+                                            <b>YOU DON’T NEED IT TO SURVIVE, BUT YOU’LL BE HAPPY YOU HAVE IT</b>
+                                            <br>
+                                            • Small luggage lock for your tent (please don’t bring any valuables – if
+                                            you must, keep them locked out of view in your vehicle) or rent one of our
+                                            lockers.
+                                            <br>
+                                            • soaps, detergents and shampoos
+                                            <br>
+                                            • Smokers – bring an ashtray! Every butt you throw on the ground someone has
+                                            to pick up!
+                                            <br>
+                                            • Blanket (for sitting)
+                                            <br>
+                                            • Earplugs (for sleeping)
+                                            <br> <br>
+
+                                            <b>NOT ALLOWED</b>
+                                            <br>
+                                            <b>CAMPGROUND PROHIBITED ITEMS</b>
+                                            <br>
+                                            These items are not allowed under any circumstances (Remember, we search
+                                            every vehicle):
+                                            <br>
+                                            • Bad Attitudes (Positive vibes only!)
+                                            <br>
+                                            • Obscure gels, liquids, or wax, including vape juice (juice within tank is
+                                            okay)
+                                            <br>
+                                            • Glass of any kind (this includes wine bottles, drinking glasses, pickle
+                                            jars, and test tubes)
+                                            <br>
+                                            • No kegs are allowed into the festival. We will seize ALL excessive*
+                                            amounts of alcohol. *Excessive means anything over 1 case of beer per person
+                                            and 1 box of wine per person. Kegs, glass, liquor, or vending of alcohol is
+                                            not permitted in the campgrounds, and alcohol may not be brought from the
+                                            campsites into the festival venue.
+                                            <br>
+                                            • Weapons, items that could be used as a weapon, or harmful objects of any
+                                            kind (including steak knives, pepper spray,etc)
+                                            <br>
+                                            • Drones
+                                            <br>
+                                            • Fireworks or explosives of any kind
+                                            <br>
+                                            • Illegal substances
+                                            <br>
+                                            • Bicycles, scooters, or personal motorized vehicles (including, but not
+                                            limited to: golf carts, ATVs, motor scooters, powered skateboards, and
+                                            airboats)Professional photography equipment (cameras with a detachable lens
+                                            >2”, tripods, video cameras, etc)
+                                            <br>
+                                            • Pets (even really, really small ones- Please reference service animal
+                                            policy)
+                                            <br>
+                                            • Box trucks or trailers (a camping trailer is OK, but it is considered an
+                                            RV which requires an RV pass)
+                                            <br>
+                                            • Charcoal, lighter fluid, gasoline, firewood or other combustibles used to
+                                            generate flame or heat (other than gas grills).
+                                            <br>
+                                            • Gas-powered generators, No gas generators, No gas cans
+                                            <br>
+                                            • Laser pens or similar focused-light devices
+                                            <br>
+                                            • Over-the-Counter Medications (unless in unopened, factory-sealed
+                                            packaging)
+                                            <br>
+                                            • Vitamins or Supplements
+                                            <br>
+                                            • Non-Compliant Prescription Medications (See FAQ for Prescription
+                                            Medication Questions)
+                                            <br>
+                                            • Vending of any kind is not allowed (Sharing yes, selling, no. You know the
+                                            difference.)
+                                            <br>
+                                            • No totems over 10 feet in height, constructed of metal or wooden pieces,
+                                            sharpened elements, or are capable of being pounded into the ground or
+                                            causing harm to others.
+                                            <br>
+                                            • NO OPEN FLAMES OF ANY KIND WILL BE ALLOWED. (CAMP FIRES, FIRE PITS, TIKI
+                                            TORCHES, ETC)]
+                                            <br>
+                                            • Branded, wrapped or sponsored vehicles, RVs, tents, etc utilized for
+                                            marketing purposes.
+                                            <br>
+                                            <b>FESTIVAL GROUND PROHIBITED ITEMS</b>
+                                            <br> <br>
+
+
+
+                                            These items are not allowed under any circumstances:
+                                            <br>
+                                            • Illegal substances
+                                            <br>
+                                            • Drugs or drug paraphernalia
+                                            <br>
+                                            • Pets
+                                            <br>
+                                            • Chairs
+                                            <br>
+                                            • Compressed Gas Cylinders (CO2, Propane, etc.)
+                                            <br>
+                                            • Massagers
+                                            <br>
+                                            • Laser pointers and air horns
+                                            <br>
+                                            • Pacifiers
+                                            <br>
+                                            • Stuffed Animals
+                                            <br>
+                                            • Eye drops
+                                            <br>
+                                            • Over-the-counter medications (see FAQ for Prescription Medication
+                                            Requirements)
+                                            <br>
+                                            • Glass, cans, cups, or coolers
+                                            <br>
+                                            • Markers, pens or spray paint
+                                            <br>
+                                            • Unauthorized vending/soliciting materials (promotional stickers, flyers,
+                                            commodities, etc)
+                                            <br>
+                                            • Balls or Frisbees
+                                            <br>
+                                            • Large purses, bags, or backpacks (over 12″×12″)
+                                            <br>
+                                            • Outside food or beverages (including alcohol and candy)
+                                            <br>
+                                            • Weapons of any kind (includes pocket knives, pepper spray, firearms, etc.)
+                                            <br>
+                                            • Professional photo, video, or audio recording equipment (no detachable
+                                            lenses, tripods, big zooms, or commercial-use rigs)
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br><br>
+                                <p>Camping Questions</p>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwentyone">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwentyone"
+                                            aria-expanded="false" aria-controls="collapseTwentyone">
+                                            <i class="fa-solid fa-arrow-right me-2">What is the address for people who
+                                                are camping?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwentyone" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwentyone" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            If you are camping, you must go to the 502 Bass Ferry Road address UNLESS
+                                            you are in an Uber or shuttle. If you are in an Uber or shuttle you can
+                                            proceed to the 0 Gore Springs address and use the box office or shuttle up
+                                            to camping from there.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwentytwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwentytwo"
+                                            aria-expanded="false" aria-controls="collapseTwentytwo">
+                                            <i class="fa-solid fa-arrow-right me-2">Does a Car camping pass include
+                                                festival entry?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwentytwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwentytwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            No, your Car camping pass will only allow your vehicle into the campgrounds.
+                                            You must also purchase a GA or VIP Pass for festival entry.
+                                            <br>
+                                            <br>
+                                            All guests must have a festival pass in order to access the GA campgrounds,
+                                            and VIP Camping Pass to enter the VIP Campgrounds. You cannot just purchase
+                                            a Car camping pass without a festival ticket.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwentythree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwentythree"
+                                            aria-expanded="false" aria-controls="collapseTwentythree">
+                                            <i class="fa-solid fa-arrow-right me-2">Do you have Tent Only Camping?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwentythree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwentythree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Yes, if you’d like to set up your camp without a car, you may do so in our
+                                            Tent-Only Campground. You do not need an additional camping pass for the
+                                            Tent Only grounds, access to this area is included with your festival pass.
+                                            This is approximately a 10 x 10 ft camping space. If you want to bring a
+                                            vehicle you will need to purchase a Car Camping Pass or Parking Pass. If you
+                                            want to camp with your friends in GA Camping, and do not have a Car Camping
+                                            Pass, you may link up with them as long as they have enough room for your
+                                            tent.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwentyfour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwentyfour"
+                                            aria-expanded="false" aria-controls="collapseTwentyfour">
+                                            <i class="fa-solid fa-arrow-right me-2">Do you have any other options for
+                                                lodging?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwentyfour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwentyfour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Do you have any other options for lodging?
+
+                                            Please view our Hotels, RVs, and Qubes here: <a
+                                                href="#">https://secure.unity.travel/events/imagine-2022/products</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br><br>
+                                <p>General Questions</p>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwentyfive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwentyfive"
+                                            aria-expanded="false" aria-controls="collapseTwentyfive">
+                                            <i class="fa-solid fa-arrow-right me-2">Where do I go if I'm not
+                                                camping?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwentyfive" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwentyfive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            DAILY ENTRANCE & RVS:
+                                            <br><br>
+                                            RVs / Daily Parking / Hotel Shuttles / Rideshare (Ubers, Lyft, Taxi etc.)
+                                            <br><br>
+                                            0 Gore Springs Road
+                                            <br><br>
+                                            Rome, GA 30161
+                                            <br><br>
+                                            Follow traffic signage to Box Office/Will Call, RV Tollbooths, or Daily
+                                            Parking/Rideshare Pick up/drop off
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwentysix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwentysix"
+                                            aria-expanded="false" aria-controls="collapseTwentysix">
+                                            <i class="fa-solid fa-arrow-right me-2">Age Requirements</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwentysix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwentysix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            You must be 18 years or older to attend Imagine Music Festival. You must be
+                                            21 or older to buy, consume, or bring alcohol onto the premises. Please
+                                            bring a valid government issued photo ID.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwentyseven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwentyseven"
+                                            aria-expanded="false" aria-controls="collapseTwentyseven">
+                                            <i class="fa-solid fa-arrow-right me-2">General Ticket Information</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwentyseven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwentyseven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            All guests will need a GA or VIP festival pass in order to enter the main
+                                            festival grounds. If you are attending the Pre-Party Concert on Thursday, or
+                                            any of the Pool Parties on Saturday and Sunday, you will need to have both a
+                                            festival wristband and the Add On Pre-Party or Pool Party pass.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwentyeight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwentyeight"
+                                            aria-expanded="false" aria-controls="collapseTwentyeight">
+                                            <i class="fa-solid fa-arrow-right me-2">Will there be showers in camping</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwentyeight" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwentyeight" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Showers will be available at each campsite for a small fee. Make sure to
+                                            bring your toiletries!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirty">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirty"
+                                            aria-expanded="false" aria-controls="collapseThirty">
+                                            <i class="fa-solid fa-arrow-right me-2">Will there be lockers?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirty" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirty" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Yes they are available to reserve while they last. <a href="#">Get yours
+                                                here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtyone">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtyone"
+                                            aria-expanded="false" aria-controls="collapseThirtyone">
+                                            <i class="fa-solid fa-arrow-right me-2">Will there be Medical Assistance on
+                                                Site?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtyone" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtyone" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            We will have medical staff on-site for the entire duration of Imagine. Upon
+                                            arrival, please take note of the location of our clearly-marked medical
+                                            tents should you need to stop by during the event. If you need medical
+                                            assistance, contact the nearest security guard, staff member, volunteer, or
+                                            medic, or go to one of the on-site medical tents. If you’re not sure whether
+                                            it’s an emergency or not, assume it is and get help immediately. All of our
+                                            safety and medical staff are here to help you enjoy the festival and make it
+                                            home safely – no judgements.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtytwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtytwo"
+                                            aria-expanded="false" aria-controls="collapseThirtytwo">
+                                            <i class="fa-solid fa-arrow-right me-2">Will there be Daily Parking?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtytwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtytwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Yes, there will be daily parking. Please purchase <a href="#">passes
+                                                here.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtythree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtythree"
+                                            aria-expanded="false" aria-controls="collapseThirtythree">
+                                            <i class="fa-solid fa-arrow-right me-2">Bag Policy</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtythree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtythree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            No large purses, bags, or backpacks (over 12″×12″)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtyfour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtyfour"
+                                            aria-expanded="false" aria-controls="collapseThirtyfour">
+                                            <i class="fa-solid fa-arrow-right me-2">Can I bring my vape pen?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtyfour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtyfour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Refillable vape devices are allowed only with enough liquid for one day's
+                                            use. No extra juice is allowed. All juice must be attached to the vape
+                                            device.
+                                            <br>
+                                            Single Use, factory-sealed vape pens such as Juuls, Post, etc, Extra Pods
+                                            must be factory sealed upon entry.
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br><br>
+                                <p>Shuttle Questions</p>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtyfive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtyfive"
+                                            aria-expanded="false" aria-controls="collapseThirtyfive">
+                                            <i class="fa-solid fa-arrow-right me-2">Will all hotels listed under the
+                                                Imagine hotel list on the site have shuttles running to and from
+                                                them?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtyfive" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtyfive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Yes, Every Single Hotel under the imagine list will have a shuttle pick up
+                                            and drop off at them on a rotating basis (one shuttle color & line for Rome,
+                                            one shuttle color and line for Cartersville). To keep things simple for the
+                                            guests, all they have to do is buy a shuttle pass and it will be honored at
+                                            either location. (we still ask them to select which city now that we have
+                                            added Cartersville).
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtysix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtysix"
+                                            aria-expanded="false" aria-controls="collapseThirtysix">
+                                            <i class="fa-solid fa-arrow-right me-2">What will the pick up and drop off
+                                                times be for these and how often do they run?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtysix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtysix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Departure: 1 hour before doors open until 7pm each night. Return: 1 hour
+                                            before show ends until 1 hour after show ends each night.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtyseven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtyseven"
+                                            aria-expanded="false" aria-controls="collapseThirtyseven">
+                                            <i class="fa-solid fa-arrow-right me-2">For the one way shuttle pass, is
+                                                there an option to purchase one that ONLY goes from a hotel to the
+                                                venue?</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtyseven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtyseven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            No
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtyeight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtyeight"
+                                            aria-expanded="false" aria-controls="collapseThirtyeight">
+                                            <i class="fa-solid fa-arrow-right me-2">Parking at Shuttle Locations:</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtyeight" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtyeight" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            You will not be authorized to park at your drop off location unless you are
+                                            a guest at that hotel.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThirtynine">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThirtynine"
+                                            aria-expanded="false" aria-controls="collapseThirtynine">
+                                            <i class="fa-solid fa-arrow-right me-2">Shuttle Running Times:</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThirtynine" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThirtynine" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Shuttles run continuously from all hotels on a loop to the show. We time it
+                                            so there is a bus there about every 30 minutes approximately.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFourty">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFourty"
+                                            aria-expanded="false" aria-controls="collapseFourty">
+                                            <i class="fa-solid fa-arrow-right me-2">Rideshare</i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFourty" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFourty" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            If you are using rideshare please give the driver this address: Gore Springs
+                                            Rd SE, Rome, GA 30161
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br><br>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </fieldset>
+            <!--Help support-->
+            <div class="container text-start my-3">
+                <p class="h2">Lost & Found</p>
+                <p>All found property may contact us at: <span
+                        class="text-decoration-underline text-primary">0935-5343-343 </span></p>
+                <p class="mb-5">Here you can register your devices to prevent loss, search for what's missing 24/7, and
+                    quickly turn in what's found to help out other staff and attendees.</p>
+            </div>
         </main>
     </div>
 
